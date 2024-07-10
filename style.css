@@ -1,0 +1,130 @@
+body {
+  background-color: #2f2f2f;
+  color: white;
+  width: 800px;
+  margin: auto;
+  padding: 5px;
+}
+
+h1,
+h2 {
+  font-family: "Abel", sans-serif;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-family: "Aclonica", sans-serif;
+}
+
+.line {
+  width: 97%;
+  height: 2px;
+  background-color: gray;
+}
+
+#graph {
+  overflow-x: scroll;
+}
+
+#graph > div {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  position: relative;
+}
+
+#label {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+#label div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.point {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #9198e5;
+  position: relative;
+  z-index: 999;
+}
+
+.a1 {
+  top: -135px;
+}
+
+.a2 {
+  top: -235px;
+}
+
+.a3 {
+  top: -160px;
+}
+
+.a4 {
+  top: -285px;
+}
+
+.a5 {
+  top: -110px;
+}
+
+.a6 {
+  top: -235px;
+}
+
+.a7 {
+  top: -84px;
+}
+
+#info {
+  width: 100vw;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#info div {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 110px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 800px) {
+  #graph {
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #info div {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+}
