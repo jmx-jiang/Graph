@@ -4,6 +4,7 @@ body {
   width: 800px;
   margin: auto;
   padding: 5px;
+  border: 2px solid red;
 }
 
 h1,
@@ -88,10 +89,11 @@ p {
 }
 
 #info {
-  width: max(100vw, 100%);
+  width: min(100vw, 100%);
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
+  border: 2px solid green;
 }
 
 #info div {
@@ -128,3 +130,4 @@ h2 {
     font-size: 70px;
   }
 }
+
