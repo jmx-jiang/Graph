@@ -88,7 +88,7 @@ p {
 }
 
 #info {
-  width: 100vw;
+  width: max(100vw, 100%);
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
